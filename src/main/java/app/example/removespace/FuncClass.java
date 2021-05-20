@@ -13,7 +13,7 @@ import java.util.Objects;
  *
  * @author bao
  */
-public class FuncApp {
+public class FuncClass {
     public static void removeSpace(Object obj) {
         Objects.requireNonNull(obj);
         Field[] allFields = obj.getClass().getDeclaredFields();

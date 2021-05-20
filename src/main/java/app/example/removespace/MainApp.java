@@ -20,8 +20,9 @@ public class MainApp {
         stud.setAddress("    Nguyen thai hoc       ");
         
         System.out.println(stud.toString());
-        FuncApp.removeSpace(stud);
+        FuncClass.removeSpace(stud);
         System.out.println(stud.toString());
+        
         
         
 //        Class<? extends Student> studClass = stud.getClass();
