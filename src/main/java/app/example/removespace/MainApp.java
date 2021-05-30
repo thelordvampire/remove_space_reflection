@@ -19,6 +19,11 @@ public class MainApp {
         stud.setName("bbbbbbbbbbbbbbb     11            ");
         stud.setAddress("    Nguyen thai hoc       ");
         
+//        Field[] allFields = stud.getClass().getSuperclass().getDeclaredFields();
+//        for (Field fi : allFields) {
+//            System.out.println(fi.getName());
+//        }
+        
         System.out.println(stud.toString());
         FuncClass.removeSpace(stud);
         System.out.println(stud.toString());

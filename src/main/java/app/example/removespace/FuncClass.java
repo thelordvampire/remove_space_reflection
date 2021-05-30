@@ -24,7 +24,7 @@ public class FuncClass {
     
     private static void removeSpaceField(Field fi, Object obj) {
         Objects.requireNonNull(fi);
-        if(checkPrivate(fi) == false) return; 
+//        if(checkPrivate(fi) == false) return; 
         try {
             fi.setAccessible(true);
             Object value = fi.get(obj);

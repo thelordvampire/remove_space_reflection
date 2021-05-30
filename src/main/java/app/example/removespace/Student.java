@@ -11,7 +11,7 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
  *
  * @author bao
  */
-public class Student {
+public class Student extends People {
     public static int hash;
     private Integer id;
     private String name;
